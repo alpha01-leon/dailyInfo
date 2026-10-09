@@ -28,10 +28,15 @@
 ### 论文、模型与代码
 
 - [Hugging Face Papers](https://huggingface.co/papers)
+- [Hugging Face Blog](https://huggingface.co/blog)
 - [arXiv cs.AI](https://arxiv.org/list/cs.AI/recent)
 - [Papers with Code](https://paperswithcode.com/)
 - [GitHub Trending](https://github.com/trending)
 - [Hugging Face Models](https://huggingface.co/models)
+
+### 安全与行业资讯
+
+- [The Hacker News](https://thehackernews.com/)
 
 ### 深度分析
 
