@@ -9,9 +9,44 @@ description: 按固定来源整理每日 AI 技术资讯，写入 dailyInfo/src/
 
 把指定日期的 AI 资讯按“聚合器 + 官方源 + 论文/代码源”整理到 `src/YYYY-MM-DD.md`，并更新根目录 `README.md` 的日期索引。
 
-## 来源
+## 来源与准确链接
 
-优先核验 README 中的来源：The Rundown AI、TLDR AI、机器之心、量子位、OpenAI News、Anthropic News、Google DeepMind Blog、Microsoft Research Blog、Hugging Face Papers、Hugging Face Blog、arXiv cs.AI、Papers with Code、GitHub Trending、Hugging Face Models、The Hacker News、The Batch、Import AI 和 Latent Space。
+只从以下列出的规范 URL 开始访问。进入页面后核对浏览器地址栏的域名和协议；如果域名不一致、出现拼写变体或跳转到非官方镜像，不要采集内容。
+
+### 热点聚合与中文媒体
+
+- The Rundown AI: <https://www.therundown.ai/>
+- TLDR AI: <https://tldr.tech/ai>
+- 机器之心: <https://www.jiqizhixin.com/>
+- 量子位: <https://www.qbitai.com/>
+
+### 官方发布
+
+- OpenAI News: <https://openai.com/news/>
+- Anthropic News: <https://www.anthropic.com/news>
+- Google DeepMind Blog: <https://deepmind.google/discover/blog/>
+- Microsoft Research Blog: <https://www.microsoft.com/en-us/research/blog/>
+
+### 论文、模型与代码
+
+- Hugging Face Papers: <https://huggingface.co/papers>
+- Hugging Face Blog: <https://huggingface.co/blog>
+- arXiv cs.AI: <https://arxiv.org/list/cs.AI/recent>
+- Papers with Code: <https://paperswithcode.com/>
+- GitHub Trending: <https://github.com/trending>
+- Hugging Face Models: <https://huggingface.co/models>
+
+### 安全与行业资讯
+
+- The Hacker News: <https://thehackernews.com/>
+
+### 深度分析
+
+- The Batch: <https://www.deeplearning.ai/the-batch/>
+- Import AI: <https://jack-clark.net/>
+- Latent Space: <https://www.latent.space/>
+
+文章详情页必须保持在对应来源的官方域名下。详情链接可以来自页面中的真实链接，但不能通过猜测 URL、搜索结果中的相似域名或第三方转载页生成。
 
 ## 日期和链接规则
 
