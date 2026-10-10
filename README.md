@@ -60,3 +60,9 @@
 7. 来源访问与口径说明
 
 重点文章使用四级标题并附原文链接；同一来源的论文榜单、模型趋势等批量条目使用列表，文章名称仍附原文链接；来源栏目使用三级标题并链接到来源首页；没有单篇链接的内容只记录为首页观察。
+
+## 自动化文件
+
+- [每日 AI 资讯 Skill](.codex/skills/daily-ai-info/SKILL.md)：定义来源、日期、Markdown 和 Git 规范。
+- [定时任务 Prompt](DAILY_TASK_PROMPT.md)：用于配置每日自动化任务。
+- [PowerShell 执行脚本](scripts/collect_daily_info.ps1)：创建日期文件、运行格式检查并提交；传入 `-Push` 时推送到 `origin/main`。
