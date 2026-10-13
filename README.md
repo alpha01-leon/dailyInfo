@@ -6,7 +6,7 @@
 
 | 日期 | 内容 |
 |---|---|
-| 2026-10-12 | [AI 技术资讯](src/2026-10-12.md) |
+| 2026-10-13 | [AI 技术资讯](src/2026-10-13.md) |`r`n| 2026-10-12 | [AI 技术资讯](src/2026-10-12.md) |
 | 2026-10-11 | [AI 技术资讯](src/2026-10-11.md) |
 | 2026-10-10 | [AI 技术资讯](src/2026-10-10.md) |
 | 2026-10-09 | [AI 技术资讯](src/2026-10-09.md) |
@@ -68,3 +68,4 @@
 - [每日 AI 资讯 Skill](.codex/skills/daily-ai-info/SKILL.md)：定义来源、日期、Markdown 和 Git 规范。
 - [定时任务 Prompt](DAILY_TASK_PROMPT.md)：用于配置每日自动化任务。
 - [PowerShell 执行脚本](scripts/collect_daily_info.ps1)：创建日期文件、运行格式检查并提交；传入 `-Push` 时推送到 `origin/main`。
+
