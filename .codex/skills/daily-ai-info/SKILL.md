@@ -22,7 +22,7 @@ description: 按固定来源整理每日 AI 技术资讯，写入 dailyInfo/src/
 
 ### 官方发布
 
-- OpenAI News: <https://openai.com/news/>
+- OpenAI News: <https://openai.com/zh-Hans-CN/news/>
 - Anthropic News: <https://www.anthropic.com/news>
 - Google DeepMind Blog: <https://deepmind.google/discover/blog/>
 - Microsoft Research Blog: <https://www.microsoft.com/en-us/research/blog/>
@@ -32,7 +32,6 @@ description: 按固定来源整理每日 AI 技术资讯，写入 dailyInfo/src/
 - Hugging Face Papers: <https://huggingface.co/papers>
 - Hugging Face Blog: <https://huggingface.co/blog>
 - arXiv cs.AI: <https://arxiv.org/list/cs.AI/recent>
-- Papers with Code: <https://paperswithcode.com/>
 - GitHub Trending: <https://github.com/trending>
 - Hugging Face Models: <https://huggingface.co/models>
 
@@ -52,6 +51,7 @@ description: 按固定来源整理每日 AI 技术资讯，写入 dailyInfo/src/
 
 - 部分来源会对直接 HTTP 请求、命令行抓取或无浏览器环境返回 `403`、访问挑战页或不完整内容；这不代表来源没有资讯。
 - 遇到上述情况，必须使用本地浏览器打开本节列出的规范 URL，从浏览器实际显示的页面、文章卡片和详情页读取信息。
+- Latent Space 首页的订阅弹窗通过点击页面上的 “No, thanks” 按钮关闭；这是站内提供的普通按钮，不属于绕过登录或验证。
 - 浏览器中打开后，核对地址栏的完整 URL 和最终域名；文章链接必须来自页面真实可见的链接或已验证的详情页。
 - 动态加载页面要等待内容出现在页面后再记录；只使用可见标题、日期、摘要和链接，不读取或猜测页面未显示的内容。
 - 如果浏览器也停留在验证码、访问挑战、登录墙或安全警告页，不要绕过验证或猜测内容；在“来源访问与口径说明”中记录该限制。
@@ -82,8 +82,10 @@ description: 按固定来源整理每日 AI 技术资讯，写入 dailyInfo/src/
 
 - 文件首行是链接到 `../README.md` 的日期标题。
 - 来源栏目使用三级标题并链接到来源首页。
-- 重点文章使用四级标题并链接到原文。
-- 论文榜单、模型趋势和同类批量条目可使用列表，但条目标题仍须附链接。
+- 能读取到资讯的来源栏目使用 Markdown 表格，至少包含“标题”“链接”“简介”“发布时间”四列；标题、链接、简介和发布时间均以浏览器实际可见内容为准。
+- 如果浏览器访问受限（验证码、访问挑战、登录墙或安全警告），该来源不使用表格，只在“来源访问与口径说明”中记录访问结果和原因；不要伪造标题或日期。
+- 重点文章不再使用四级标题，改为表格行；“链接”列必须提供原文链接。没有单篇 URL 时，链接列使用来源首页，并在简介中说明限制。
+- 论文榜单、模型趋势和同类批量条目也使用同样的表格；相对时间、月份标签和 Today 等页面口径原样保留。
 - 说明性段落可以使用项目符号；不要把无法验证的内容写成确定事实。
 
 ## Git 流程

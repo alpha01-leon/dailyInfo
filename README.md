@@ -27,7 +27,7 @@
 
 ### 官方发布
 
-- [OpenAI News](https://openai.com/news/)
+- [OpenAI News](https://openai.com/zh-Hans-CN/news/)
 - [Anthropic News](https://www.anthropic.com/news)
 - [Google DeepMind Blog](https://deepmind.google/discover/blog/)
 - [Microsoft Research Blog](https://www.microsoft.com/en-us/research/blog/)
@@ -37,7 +37,6 @@
 - [Hugging Face Papers](https://huggingface.co/papers)
 - [Hugging Face Blog](https://huggingface.co/blog)
 - [arXiv cs.AI](https://arxiv.org/list/cs.AI/recent)
-- [Papers with Code](https://paperswithcode.com/)
 - [GitHub Trending](https://github.com/trending)
 - [Hugging Face Models](https://huggingface.co/models)
 
